@@ -1,0 +1,47 @@
+@media(max-width: 576px){
+   header{
+    padding: 0 2rem;
+   } 
+   .header-left a{
+    font-size: 20px;
+   }
+    #template{
+    height: 100vh;
+    text-align: center;
+   }
+   .template-left h1{
+    font-size: 2rem;
+    font-weight: bolder;
+   } .template-left p{
+    font-size: 20px;
+   } 
+    .template-right img {
+       display: none;
+    }
+    .template-left button{
+      width: 90%;
+      font-size: 20px;
+    }
+    .template-left .start{
+        margin-left: 3px;
+    }
+    .way-all{
+        display: flex;
+        flex-direction: column;
+    }
+    .way-left{
+        display: block;
+    }
+    .way-right .all-boxes .boxes{
+        width: 100%; 
+        
+    }
+    .way-right .all-boxes .first .card-bottom .post-date{
+        margin-bottom: 0;
+    }
+    #blog .blog-bottom .blog-cards-all .card-group .card{
+        padding-bottom: 40px;
+    }
+
+    
+}
